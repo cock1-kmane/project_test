@@ -37,7 +37,7 @@ integrations:
         - message=Shippable Run $BUILD_NUMBER ($BUILD_URL) succeeded for $COMPARE_URL
         - FOO=BAR
         - FIZZ=BUZZ
-      on_pull_request: always  
+      on_pull_request: never 
       on_failure: never
       on_start: always
       on_success: never
